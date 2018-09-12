@@ -17,7 +17,7 @@ internal class PresentStoryViewAnimationController: NSObject, UIViewControllerAn
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         // 1
         let containerView = transitionContext.containerView
-        guard let fromViewController = transitionContext.viewController(forKey: .from) as? TodayViewController,
+        guard let _ = transitionContext.viewController(forKey: .from) as? TodayViewController,
         let toViewController = transitionContext.viewController(forKey: .to) as? StoryDetailViewController else {
             return
         }

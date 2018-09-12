@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,10 +14,6 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="TodayViewController" customModule="AppStoreClone" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -35,11 +32,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="PCm-A0-gVF" secondAttribute="trailing" id="Kdz-YZ-4ty"/>
-                            <constraint firstItem="PCm-A0-gVF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="KzI-tw-x8k"/>
-                            <constraint firstItem="PCm-A0-gVF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="PMa-uK-lT6"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PCm-A0-gVF" secondAttribute="bottom" id="snv-6b-EkF"/>
+                            <constraint firstItem="DZo-rc-OwW" firstAttribute="trailing" secondItem="PCm-A0-gVF" secondAttribute="trailing" id="Kdz-YZ-4ty"/>
+                            <constraint firstItem="PCm-A0-gVF" firstAttribute="top" secondItem="DZo-rc-OwW" secondAttribute="top" id="KzI-tw-x8k"/>
+                            <constraint firstItem="PCm-A0-gVF" firstAttribute="leading" secondItem="DZo-rc-OwW" secondAttribute="leading" id="PMa-uK-lT6"/>
+                            <constraint firstAttribute="bottom" secondItem="PCm-A0-gVF" secondAttribute="bottom" id="snv-6b-EkF"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="DZo-rc-OwW"/>
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="PCm-A0-gVF" id="AHR-0P-Xig"/>
@@ -54,10 +52,6 @@
         <scene sceneID="vUy-GB-Y24">
             <objects>
                 <viewController id="urk-bB-7gL" customClass="StoryDetailViewController" customModule="AppStoreClone" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="2L1-am-fDW"/>
-                        <viewControllerLayoutGuide type="bottom" id="opS-px-9xi"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="g7f-W6-jBa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,7 +70,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="The Art of the Impossible" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3B-K9-gc4">
-                                                <rect key="frame" x="20" y="37" width="264" height="26.5"/>
+                                                <rect key="frame" x="20" y="37" width="258" height="26.5"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -136,11 +130,12 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="T0G-xr-uy0" firstAttribute="leading" secondItem="g7f-W6-jBa" secondAttribute="leading" constant="20" id="CcQ-Ld-B5I"/>
-                            <constraint firstItem="opS-px-9xi" firstAttribute="top" secondItem="T0G-xr-uy0" secondAttribute="bottom" id="FR6-9V-PvM"/>
-                            <constraint firstAttribute="trailing" secondItem="T0G-xr-uy0" secondAttribute="trailing" constant="20" id="g2M-4U-gp1"/>
-                            <constraint firstItem="T0G-xr-uy0" firstAttribute="top" secondItem="2L1-am-fDW" secondAttribute="bottom" constant="20" id="krD-uv-cqO"/>
+                            <constraint firstItem="T0G-xr-uy0" firstAttribute="leading" secondItem="EkG-fS-RWs" secondAttribute="leading" constant="20" id="CcQ-Ld-B5I"/>
+                            <constraint firstItem="EkG-fS-RWs" firstAttribute="bottom" secondItem="T0G-xr-uy0" secondAttribute="bottom" id="FR6-9V-PvM"/>
+                            <constraint firstItem="EkG-fS-RWs" firstAttribute="trailing" secondItem="T0G-xr-uy0" secondAttribute="trailing" constant="20" id="g2M-4U-gp1"/>
+                            <constraint firstItem="T0G-xr-uy0" firstAttribute="top" secondItem="EkG-fS-RWs" secondAttribute="top" constant="20" id="krD-uv-cqO"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="EkG-fS-RWs"/>
                     </view>
                     <connections>
                         <outlet property="containerBottomConstraint" destination="FR6-9V-PvM" id="FN9-0D-scG"/>
