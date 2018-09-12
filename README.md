@@ -1,5 +1,8 @@
-# appstore-clone
-An experimental clone of the new iOS 11 App Store app's Today page UI
+AppStore Clone
+============
+![Language](https://img.shields.io/badge/language-Swift%204-orange.svg)
+
+An experimental clone of the new **iOS 11 App Store app**'s Today page UI
 
 ![Reveal debugging my App Store clone](https://cdn-images-1.medium.com/max/2000/1*tQ0-dhZvBH3O0h9GTScihA.png)
 
