@@ -1,5 +1,5 @@
 # appstore-clone
-An experimental clone of the new iOS 11 App Store app for [this Medium Article](https://medium.com/@phillfarrugia/re-building-the-new-app-store-app-today-view-38b816f7302e)
+An experimental clone of the new iOS 11 App Store app's Today page UI
 
 ![Reveal debugging my App Store clone](https://cdn-images-1.medium.com/max/2000/1*tQ0-dhZvBH3O0h9GTScihA.png)
 
