@@ -215,7 +215,6 @@
 				TargetAttributes = {
 					F7F0F14A1EF5EA1C00D73E20 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 6VSG94VVFH;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -468,11 +467,11 @@
 			baseConfigurationReference = 7969423CEC4E6739F6E8EED0 /* Pods-AppStoreClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6VSG94VVFH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppStoreClone/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = phillfarrugia.AppStoreClone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nayem.AppStoreClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -485,11 +484,11 @@
 			baseConfigurationReference = BD89E3096EF2B1D912C836DA /* Pods-AppStoreClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6VSG94VVFH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppStoreClone/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = phillfarrugia.AppStoreClone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nayem.AppStoreClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
